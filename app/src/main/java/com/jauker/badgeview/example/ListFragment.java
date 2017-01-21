@@ -106,7 +106,7 @@ public class ListFragment extends android.support.v4.app.ListFragment {
                 holder.badge = new BadgeView(mContext);
                 holder.badge.setTargetView(holder.text);
                 holder.badge.setBadgeGravity(Gravity.CENTER_VERTICAL | Gravity.RIGHT);
-                holder.badge.setBadgeMargin(0, 0, 8, 0);
+                holder.badge.setBadgeMargin(0, 0, 8, 0); //左上右下
                 convertView.setTag(holder);
             } else {
                 holder = (ViewHolder) convertView.getTag();
